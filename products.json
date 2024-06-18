@@ -1,0 +1,194 @@
+[
+  {
+    "id": "product1",
+    "name": "HONDA FORZA 125CC",
+    "image": "images/honda-forza-125.jpg",
+    "price": "£75 per Week",
+    "details": {
+      "category": "URBAN MOBILITY",
+      "top_speed": "80MPH",
+      "engine": "125CC / 11.0KW",
+      "fuel_capacity": "11.5 LITRES",
+      "mpg": "123MPG (2.3 L/100KM)",
+      "minimum_hire_period": "6 WEEKS",
+      "requirements": [
+        "Driving Licence",
+        "Proof of Address",
+        "Proof of Identification",
+        "Insurance Certification",
+        "CBT Certification",
+        "£300 deposit + 1 Week Rent",
+        "6 Weeks Minimum Rental Period",
+        "You need to bring a lock and chain before collecting the motorcycle. If you don't have one you can always purchase from our shop along with lot's of other motorcycle accessories.",
+        "Insurance fire and theft is the minimum cover we accept. The motorcycle must be locked at all times.",
+        "Any damage must be paid by you or a claim must be made under your insurance.",
+        "You must give one week notice before returning the motorcycle or deposit will be lost.",
+        "Deposit will be refunded provided there is no damage to the motorcycle and no accessories are missing."
+      ],
+      "reservation_info": {
+        "reservation_fee": "£20",
+        "reservation_text": "RESERVE FOR £20 or call 0208 314 1498"
+      }
+    }
+  },
+  {
+    "id": "product2",
+    "name": "HONDA PCX 125CC",
+    "image": "images/honda-pcx-125.jpg",
+    "price": "£75 per Week",
+    "details": {
+      "category": "URBAN MOBILITY",
+      "top_speed": "67MPH",
+      "engine": "125CC / 8.8KW",
+      "fuel_capacity": "8.1 LITRES",
+      "mpg": "115MPG",
+      "minimum_hire_period": "6 WEEKS",
+      "requirements": [
+        "Driving Licence",
+        "Proof of Address",
+        "Proof of Identification",
+        "Insurance Certification",
+        "CBT Certification",
+        "£300 deposit + 1 Week Rent",
+        "6 Weeks Minimum Rental Period",
+        "You need to bring a lock and chain before collecting the motorcycle. If you don't have one you can always purchase from our shop along with lot's of other motorcycle accessories.",
+        "Insurance fire and theft is the minimum cover we accept. The motorcycle must be locked at all times.",
+        "Any damage must be paid by you or a claim must be made under your insurance.",
+        "You must give one week notice before returning the motorcycle or deposit will be lost.",
+        "Deposit will be refunded provided there is no damage to the motorcycle and no accessories are missing."
+      ],
+      "reservation_info": {
+        "reservation_fee": "£20",
+        "reservation_text": "RESERVE FOR £20 or call 0208 314 1498"
+      }
+    }
+  },
+  {
+    "id": "product3",
+    "name": "HONDA SH 125CC",
+    "image": "images/honda-sh-125.jpg",
+    "price": "£75 per Week",
+    "details": {
+      "category": "URBAN MOBILITY",
+      "top_speed": "65MPH",
+      "engine": "125CC / 8.4KW",
+      "fuel_capacity": "4.9 LITRES",
+      "mpg": "75MPG",
+      "minimum_hire_period": "6 WEEKS",
+      "requirements": [
+        "Driving Licence",
+        "Proof of Address",
+        "Proof of Identification",
+        "Insurance Certification",
+        "CBT Certification",
+        "£300 deposit + 1 Week Rent",
+        "6 Weeks Minimum Rental Period",
+        "You need to bring a lock and chain before collecting the motorcycle. If you don't have one you can always purchase from our shop along with lot's of other motorcycle accessories.",
+        "Insurance fire and theft is the minimum cover we accept. The motorcycle must be locked at all times.",
+        "Any damage must be paid by you or a claim must be made under your insurance.",
+        "You must give one week notice before returning the motorcycle or deposit will be lost.",
+        "Deposit will be refunded provided there is no damage to the motorcycle and no accessories are missing."
+      ],
+      "reservation_info": {
+        "reservation_fee": "£20",
+        "reservation_text": "RESERVE FOR £20 or call 0208 314 1498"
+      }
+    }
+  },
+  {
+    "id": "product4",
+    "name": "HONDA VISION 125CC",
+    "image": "images/honda-vision-125.jpg",
+    "price": "£70 per Week",
+    "details": {
+      "category": "URBAN MOBILITY",
+      "top_speed": "60MPH (128KPH)",
+      "engine": "125CC / 6.4KW",
+      "fuel_capacity": "11.5 LITRES",
+      "mpg": "141.8MPG",
+      "minimum_hire_period": "6 WEEKS",
+      "requirements": [
+        "Driving Licence",
+        "Proof of Address",
+        "Proof of Identification",
+        "Insurance Certification",
+        "CBT Certification",
+        "£300 deposit + 1 Week Rent",
+        "6 Weeks Minimum Rental Period",
+        "You need to bring a lock and chain before collecting the motorcycle. If you don't have one you can always purchase from our shop along with lot's of other motorcycle accessories.",
+        "Insurance fire and theft is the minimum cover we accept. The motorcycle must be locked at all times.",
+        "Any damage must be paid by you or a claim must be made under your insurance.",
+        "You must give one week notice before returning the motorcycle or deposit will be lost.",
+        "Deposit will be refunded provided there is no damage to the motorcycle and no accessories are missing."
+      ],
+      "reservation_info": {
+        "reservation_fee": "£20",
+        "reservation_text": "RESERVE FOR £20 or call 0208 314 1498"
+      }
+    }
+  },
+  {
+    "id": "product5",
+    "name": "YAMAHA NMAX 125CC",
+    "image": "images/yamaha-nmax-125.jpg",
+    "price": "£75 per Week",
+    "details": {
+      "category": "URBAN MOBILITY",
+      "top_speed": "60MPH (128KPH)",
+      "engine": "125CC / 9KW",
+      "fuel_capacity": "7.1 LITRES",
+      "mpg": "96MPG",
+      "minimum_hire_period": "6 WEEKS",
+      "requirements": [
+        "Driving Licence",
+        "Proof of Address",
+        "Proof of Identification",
+        "Insurance Certification",
+        "CBT Certification",
+        "£300 deposit + 1 Week Rent",
+        "6 Weeks Minimum Rental Period",
+        "You need to bring a lock and chain before collecting the motorcycle. If you don't have one you can always purchase from our shop along with lot's of other motorcycle accessories.",
+        "Insurance fire and theft is the minimum cover we accept. The motorcycle must be locked at all times.",
+        "Any damage must be paid by you or a claim must be made under your insurance.",
+        "You must give one week notice before returning the motorcycle or deposit will be lost.",
+        "Deposit will be refunded provided there is no damage to the motorcycle and no accessories are missing."
+      ],
+      "reservation_info": {
+        "reservation_fee": "£20",
+        "reservation_text": "RESERVE FOR £20 or call 0208 314 1498"
+      }
+    }
+  },
+  {
+    "id": "product6",
+    "name": "YAMAHA NMAX 125CC",
+    "image": "images/yamaha-nmax-125.jpg",
+    "price": "£75 per Week",
+    "details": {
+      "category": "URBAN MOBILITY",
+      "top_speed": "60MPH (128KPH)",
+      "engine": "125CC / 9KW",
+      "fuel_capacity": "7.1 LITRES",
+      "mpg": "96MPG",
+      "minimum_hire_period": "6 WEEKS",
+      "requirements": [
+        "Driving Licence",
+        "Proof of Address",
+        "Proof of Identification",
+        "Insurance Certification",
+        "CBT Certification",
+        "£300 deposit + 1 Week Rent",
+        "6 Weeks Minimum Rental Period",
+        "You need to bring a lock and chain before collecting the motorcycle. If you don't have one you can always purchase from our shop along with lot's of other motorcycle accessories.",
+        "Insurance fire and theft is the minimum cover we accept. The motorcycle must be locked at all times.",
+        "Any damage must be paid by you or a claim must be made under your insurance.",
+        "You must give one week notice before returning the motorcycle or deposit will be lost.",
+        "Deposit will be refunded provided there is no damage to the motorcycle and no accessories are missing."
+      ],
+      "reservation_info": {
+        "reservation_fee": "£20",
+        "reservation_text": "RESERVE FOR £20 or call 0208 314 1498"
+      }
+    }
+  }
+]
