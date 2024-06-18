@@ -33,11 +33,11 @@ function renderProducts(products) {
 
         // Create HTML for each product card with Font Awesome icons
         const productCardHTML = `
-        <div class="col-md-4 mb-4">
-            <div class="card" onclick="showProduct('${id}')"  data-bs-toggle="modal" data-bs-target="#${id}Modal">
+        <div class="col-md-4 mb-4 ">
+            <div class="card"  onclick="showProduct('${id}')"  data-bs-toggle="modal" data-bs-target="#${id}Modal" >
                 <img src="${image}" class="card-img-top" alt="${name}">
                 <div class="card-body">
-                    <h5 class="card-title">${name}</h5>
+                    <h5 class="card-title fw-bold">${name}</h5>
                     <p class="card-text">For this or similar model, prices start from £${price} per Week</p>
                     <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#${id}Modal">More Information</button>
                 </div>

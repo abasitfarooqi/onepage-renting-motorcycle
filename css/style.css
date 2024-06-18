@@ -1,46 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300.500.700..700&display=swap');
 html {
-    scroll-behavior: smooth;
+scroll-behavior: smooth;
+}
+*{
+font-family: Quicksand;
+}
+h2{
+    font-weight: bold;
+    font-size: 32px;
+}
+h4{
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    font-weight: 500;
 }
 
 #hero {
-    position: relative;
-    height: 100vh;
-    background: url('../images/background.jpg') no-repeat center center / cover;
-    overflow: hidden;
+position: relative;
+height: 100vh;
+background: url('../images/background.jpg') no-repeat center center / cover;
+overflow: hidden;
 }
 .p-0{
-    padding:0;
+padding:0;
 }
 #hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Adjust the overlay color and opacity */
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.6); /* Adjust the overlay color and opacity */
 }
 
 .hero-container {
-    position: relative;
-    z-index: 1; /* Ensure content stays above the background image */
-    color: #fff; /* Set text color to white */
-    padding: 50px 0; /* Adjust padding as needed */
+position: relative;
+z-index: 1; /* Ensure content stays above the background image */
+color: #fff; /* Set text color to white */
+padding: 50px 0; /* Adjust padding as needed */
 }
 .nav-link {
-    cursor: pointer;
+cursor: pointer;
 }
 .product-img {
-    max-height: 200px;
-    object-fit: cover;
+max-height: 200px;
+object-fit: cover;
 }
 .product-page {
-    display: none; 
+display: none; 
 }
 .checked-list{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+/* Custom styles for sections */
+.section-heading {
+color: #333;
+}
+.section-subheading {
+color: #666;
+}
+.service-icon {
+color: #007bff;
+}
+.testimonial-card {
+height: 100%;
+}
+.testimonial-card .card-body {
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.faq-question {
+cursor: pointer;
+}
+.w-100{
+width: 100%;
+}
+/* This changes all the animations globally */
+:root {
+--animate-duration: 800ms;
+--animate-delay: 0.9s;
 }
 /* Custom styles for sections */
 .section-heading {
@@ -63,7 +108,4 @@ html {
 }
 .faq-question {
     cursor: pointer;
-}
-.w-100{
-    width: 100%;
 }
