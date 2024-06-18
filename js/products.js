@@ -33,8 +33,8 @@ function renderProducts(products) {
 
         // Create HTML for each product card with Font Awesome icons
         const productCardHTML = `
-        <div class="col-md-4 mb-4 ">
-            <div class="card"  onclick="showProduct('${id}')"  data-bs-toggle="modal" data-bs-target="#${id}Modal" >
+        <div class="col-md-4 mb-4 "  data-aos="fade-up" data-aos-duration="300">
+            <div class="card"  onclick="showProduct('${id}')"  data-bs-toggle="modal" data-bs-target="#${id}Modal"  >
                 <img src="${image}" class="card-img-top" alt="${name}">
                 <div class="card-body">
                     <h5 class="card-title fw-bold">${name}</h5>
@@ -44,7 +44,7 @@ function renderProducts(products) {
             </div>
         </div>
         <!-- ${name} Modal -->
-        <div class="modal fade p-0" id="${id}Modal" tabindex="-1" aria-labelledby="${id}ModalLabel" aria-hidden="true">
+        <div class="modal fade p-0" id="${id}Modal" tabindex="-1" aria-labelledby="${id}ModalLabel" aria-hidden="true" >
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header">

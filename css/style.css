@@ -124,6 +124,12 @@ width: 100%;
 .logo-text{
     color: white;
 }
+.display-3 {
+    font-size: 5rem;
+}
+.lead{
+    font-size: 2rem;
+}
 .navbar.scrolled {
     background-color: #007bff !important;
 }
@@ -139,4 +145,33 @@ width: 100%;
 .navbar-nav li a:hover {
     color: #ffcc00 !important;
     font-size: 18px;
+}
+   /* Custom CSS for mobile view */
+   @media (max-width: 991.98px) {
+    
+#hero {
+    position: relative;
+    height: inherit;
+    height: 600px;
+    background: url('../images/background.jpg') no-repeat center center / cover;
+    overflow: hidden;
+    }
+    #hero h1{
+        font-size: 3.5rem !important;
+    }
+    .navbar {
+        
+        background-color: white !important;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: #000 !important;
+    }
+    .navbar-nav li {
+        margin-left: 0px;
+    }
+}
+/* Adjusting hover effects and active link for better UX */
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+    color: #ffcc00 !important;
 }
