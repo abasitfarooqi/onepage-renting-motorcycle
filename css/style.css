@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 #hero {
     position: relative;
     height: 100vh;
@@ -35,4 +36,34 @@ html {
 }
 .product-page {
     display: none; 
+}
+.checked-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* Custom styles for sections */
+.section-heading {
+    color: #333;
+}
+.section-subheading {
+    color: #666;
+}
+.service-icon {
+    color: #007bff;
+}
+.testimonial-card {
+    height: 100%;
+}
+.testimonial-card .card-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.faq-question {
+    cursor: pointer;
+}
+.w-100{
+    width: 100%;
 }
