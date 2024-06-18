@@ -2,9 +2,11 @@
 html {
 scroll-behavior: smooth;
 }
+
 *{
 font-family: Quicksand;
 }
+
 h2{
     font-weight: bold;
     font-size: 32px;
@@ -16,7 +18,12 @@ p{
     font-size: 18px;
     font-weight: 500;
 }
-
+h2.accordion-header button{
+font-size: 20px !important;
+}
+.accordion-body{
+    font-size: 20px;
+}
 #hero {
 position: relative;
 height: 100vh;
@@ -108,4 +115,28 @@ width: 100%;
 }
 .faq-question {
     cursor: pointer;
+}
+
+/* -- Navbar */
+.navbar {
+    transition: background-color 0.5s;
+}
+.logo-text{
+    color: white;
+}
+.navbar.scrolled {
+    background-color: #007bff !important;
+}
+.navbar-nav li {
+    margin-left: 20px;
+}
+.navbar-nav li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: white !important;
+    transition: color 0.3s, font-size 0.3s;
+}
+.navbar-nav li a:hover {
+    color: #ffcc00 !important;
+    font-size: 18px;
 }
